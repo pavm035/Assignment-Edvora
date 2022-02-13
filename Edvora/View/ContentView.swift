@@ -2,15 +2,14 @@
 //  ContentView.swift
 //  Edvora
 //
-//  Created by Mahadevaiah, Pavan | Pavan | ECMPD on 2022/02/10.
+
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        HomeView()
     }
 }
 

@@ -2,7 +2,7 @@
 //  EdvoraUITestsLaunchTests.swift
 //  EdvoraUITests
 //
-//  Created by Mahadevaiah, Pavan | Pavan | ECMPD on 2022/02/10.
+
 //
 
 import XCTest
