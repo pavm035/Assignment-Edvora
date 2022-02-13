@@ -7,48 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6098E2AD-7034-43E1-8DD0-AA23A41CF145"
+            uuid = "BEBB4AFB-2B0E-4679-8F26-183CCB811043"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Edvora/ViewModel/FiltersViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "dropdownTitle(for:)"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "init(products:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CEE7C8D4-47A9-416C-A3A0-5B0F155E1172"
+            uuid = "CF163FA6-4258-4C14-B822-73479F1F7AA3"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Edvora/ViewModel/HomeViewModel.swift"
+            filePath = "Edvora/ViewModel/FiltersViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "updateDisplayableInfo()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "28E82A44-9330-4DBE-B98D-5AD68BBC44A2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Edvora/ViewModel/HomeViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "updateDisplayableInfo()"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "displayableInfo(for:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

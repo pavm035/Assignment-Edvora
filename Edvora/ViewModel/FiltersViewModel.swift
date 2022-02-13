@@ -9,7 +9,11 @@ import Foundation
 import SwiftUI
 
 class FiltersViewModel: ObservableObject {
-    var products: [Product]
+    var products: [Product] {
+        didSet {
+            updateDisplayableInfo()
+        }
+    }
     
     @Published var selectedProduct: String? {
         willSet {
@@ -53,7 +57,7 @@ class FiltersViewModel: ObservableObject {
     }
     
     init(products: [Product]) {
-        self.products = products
+A        self.products = products
         updateDisplayableInfo()
     }
     
