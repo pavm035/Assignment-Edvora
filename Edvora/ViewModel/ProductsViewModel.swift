@@ -9,6 +9,7 @@ import Foundation
 
 class ProductsViewModel: ObservableObject {
     let productCategory: ProductCategory
+    let productViewModels: [ProductViewModel]
     
     var title: String {
         productCategory.category
@@ -16,5 +17,6 @@ class ProductsViewModel: ObservableObject {
     
     init(productCategory: ProductCategory) {
         self.productCategory = productCategory
+        self.productViewModels = productCategory.products.map { ProductViewModel(product: $0) }
     }
 }

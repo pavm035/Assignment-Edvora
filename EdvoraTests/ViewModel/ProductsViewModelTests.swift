@@ -21,5 +21,6 @@ class ProductsViewModelTests: XCTestCase {
     func testProperties() {
         let viewModel = ProductsViewModel(productCategory: .init(category: "Shoes", products: Product.testProducts))
         XCTAssertEqual(viewModel.title, "Shoes")
+        XCTAssertEqual(viewModel.productViewModels.count, 2)
     }
 }

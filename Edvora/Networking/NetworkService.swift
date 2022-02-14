@@ -35,7 +35,8 @@ extension NetworkService {
     }
 }
 
-extension DateFormatter {
+// Custom date formatter to parse date-time
+private extension DateFormatter {
     static let edvora: DateFormatter = {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-mm-dd'T'HH:mm:ss.SSS'Z'"

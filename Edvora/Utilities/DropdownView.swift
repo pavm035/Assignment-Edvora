@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+/// Custom dropdown menu view
 struct DropdownView<Content: View>: View {
     @State private var expand = false
     let title: String

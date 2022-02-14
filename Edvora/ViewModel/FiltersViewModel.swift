@@ -57,7 +57,7 @@ class FiltersViewModel: ObservableObject {
     }
     
     init(products: [Product]) {
-A        self.products = products
+        self.products = products
         updateDisplayableInfo()
     }
     

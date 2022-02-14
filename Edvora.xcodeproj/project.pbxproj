@@ -15,7 +15,6 @@
 		75E839C827B522AD00750BD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E839C727B522AD00750BD0 /* ContentView.swift */; };
 		75E839CA27B522AF00750BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E839C927B522AF00750BD0 /* Assets.xcassets */; };
 		75E839CD27B522AF00750BD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E839CC27B522AF00750BD0 /* Preview Assets.xcassets */; };
-		75E839D727B522B000750BD0 /* EdvoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E839D627B522B000750BD0 /* EdvoraTests.swift */; };
 		75E839E127B522B000750BD0 /* EdvoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E839E027B522B000750BD0 /* EdvoraUITests.swift */; };
 		75E839E327B522B000750BD0 /* EdvoraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E839E227B522B000750BD0 /* EdvoraUITestsLaunchTests.swift */; };
 		75E839F527B5235D00750BD0 /* ProductsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E839F427B5235D00750BD0 /* ProductsDataProvider.swift */; };
@@ -69,7 +68,6 @@
 		75E839C927B522AF00750BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75E839CC27B522AF00750BD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75E839D227B522B000750BD0 /* EdvoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdvoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75E839D627B522B000750BD0 /* EdvoraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdvoraTests.swift; sourceTree = "<group>"; };
 		75E839DC27B522B000750BD0 /* EdvoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdvoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E839E027B522B000750BD0 /* EdvoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdvoraUITests.swift; sourceTree = "<group>"; };
 		75E839E227B522B000750BD0 /* EdvoraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdvoraUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -132,6 +130,17 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		75CAEB8C27BA052B0007A5F2 /* AsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				75E83A1527B690B500750BD0 /* AsyncImage.swift */,
+				75E83A1427B690B500750BD0 /* EnvironmentValues+ImageCache.swift */,
+				75E83A1327B690B500750BD0 /* ImageCache.swift */,
+				75E83A1627B690B500750BD0 /* ImageLoader.swift */,
+			);
+			path = AsyncImage;
+			sourceTree = "<group>";
+		};
 		75E839B927B522AC00750BD0 = {
 			isa = PBXGroup;
 			children = (
@@ -179,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				756DB70727B8C935004F10F7 /* ViewModel */,
-				75E839D627B522B000750BD0 /* EdvoraTests.swift */,
 			);
 			path = EdvoraTests;
 			sourceTree = "<group>";
@@ -264,10 +272,7 @@
 		75E83A1227B690A200750BD0 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				75E83A1527B690B500750BD0 /* AsyncImage.swift */,
-				75E83A1427B690B500750BD0 /* EnvironmentValues+ImageCache.swift */,
-				75E83A1327B690B500750BD0 /* ImageCache.swift */,
-				75E83A1627B690B500750BD0 /* ImageLoader.swift */,
+				75CAEB8C27BA052B0007A5F2 /* AsyncImage */,
 				75E83A1F27B78E4F00750BD0 /* FilterButtonStyle.swift */,
 				75E83A2527B7D22300750BD0 /* DropdownView.swift */,
 			);
@@ -435,7 +440,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				756DB70B27B8D95A004F10F7 /* ProductsViewModelTests.swift in Sources */,
-				75E839D727B522B000750BD0 /* EdvoraTests.swift in Sources */,
 				756DB70F27B8DE54004F10F7 /* FiltersViewModelTests.swift in Sources */,
 				756DB70D27B8DDC5004F10F7 /* ProductViewModelTests.swift in Sources */,
 				756DB70927B8C95F004F10F7 /* HomeViewModelTests.swift in Sources */,

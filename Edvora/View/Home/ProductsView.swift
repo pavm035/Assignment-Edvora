@@ -26,8 +26,8 @@ struct ProductsView: View {
                 .padding(.top, 13)
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack {
-                    ForEach(viewModel.productCategory.products) { product in
-                        ProductView(viewModel: .init(product: product))
+                    ForEach(0..<viewModel.productViewModels.count, id: \.self) { i in
+                        ProductView(viewModel: viewModel.productViewModels[i])
                     }
                 }
             }

@@ -5,6 +5,8 @@
 
 import SwiftUI
 
+
+/// Wrapper view that supports loading image asynchornously with backward compatible
 struct AsyncImage<Placeholder: View>: View {
     @StateObject private var loader: ImageLoader
     private let placeholder: Placeholder

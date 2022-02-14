@@ -8,7 +8,7 @@
 import Foundation
 
 class ProductViewModel: ObservableObject {
-    let product: Product
+    private let product: Product
     
     private lazy var dateFormatter: DateFormatter = {
        let dateFormatter = DateFormatter()
